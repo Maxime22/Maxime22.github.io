@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "LB";
+    src: url("/fonts/LibreBaskerville-Bold.ttf") format("ttf"),
+         url("/fonts/LibreBaskerville-Regular.ttf") format("ttf"),
+         url("/fonts/LibreBaskerville-Italic.ttf") format("ttf");
+   }
+/* BODY */
+body{
+    width:100%;
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding:0px;
+}
+/* HEADER */
+.header {
+    width: 100%;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar a, .navbar a:visited, .navbar a:hover{
+    color: white;
+}
+.logoNavbar{
+    width: 80px;
+    height: 80px;
+}
+/* HOME */
+@keyframes title-appears{
+    0% {
+        transform: translate(300%, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
+.homeMainImage{
+    height:100vh;
+    object-fit: cover;
+    width:100%;
+}
+.homeMainImageFigure figcaption{
+    font-family: "LB";
+    width:1000px;
+    color:white;
+    position: absolute;
+    top: 50%; left: 50%;
+    animation: title-appears 1500ms forwards;
+}
+.homeMainImageFigure figcaption div{
+    text-align: center;
+    font-size: 40px;
+}
+.homeMainImageFigure figcaption button{
+    background-color: #7c847c;
+    margin: auto;
+}
+.homeMainImageFigure figcaption button a, .homeMainImageFigure figcaption button a:hover{
+    color:white;
+    font-size:13px;
+    text-decoration: none;
+}
+.homeMainImageFigure figcaption h1::after{
+    content:"";
+    width:200px;
+    height: 2px;
+    display: block;
+    background-color: #555;
+    margin: auto;
+}
+.homeMainImageFigure figcaption h1{
+    display: block;
+    font-size:54px;
+    font-weight: bold;
+}
