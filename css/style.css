@@ -1,14 +1,18 @@
 @font-face {
     font-family: "LB";
-    src: url("/fonts/LibreBaskerville-Bold.ttf") format("ttf"),
-         url("/fonts/LibreBaskerville-Regular.ttf") format("ttf"),
-         url("/fonts/LibreBaskerville-Italic.ttf") format("ttf");
-   }
+    src: url("/fonts/LibreBaskerville-Bold.ttf") format("truetype"),
+         url("/fonts/LibreBaskerville-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+}
 /* BODY */
 body{
     width:100%;
     overflow-x: hidden;
     color:#47425d;
+    font-family: "OpenSans";
 }
 .container-fluid{
     padding:0px;
@@ -18,10 +22,23 @@ body{
     width: 100%;
 }
 .navbar{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
 }
 .navbar a, .navbar a:visited, .navbar a:hover{
     color: white;
+}
+.navbar .nav-item::after{
+    content: "";
+    height: 1px;
+    display: block;
+    width: 100%;
+    border-bottom: solid 2px white;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.navbar .nav-item:hover::after{
+    transform: scaleX(1);
 }
 .logoNavbar{
     width: 80px;
