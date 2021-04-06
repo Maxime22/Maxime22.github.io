@@ -1,11 +1,18 @@
+/*COLORS
+#121210 Rangoon Green
+#A6A7A3 Delta
+#7c847c Xanadu
+#7c7c7c Boulder 
+*/
+
 @font-face {
     font-family: "LB";
-    src: url("/fonts/LibreBaskerville-Bold.ttf") format("truetype"),
-         url("/fonts/LibreBaskerville-Regular.ttf") format("truetype");
+    src: url("./fonts/LibreBaskerville-Bold.ttf") format("truetype"),
+         url("./fonts/LibreBaskerville-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+    src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
 }
 /* BODY */
 body{
@@ -23,7 +30,6 @@ body{
 }
 .navbar{
     background-color: rgba(0, 0, 0, 0.4);
-    font-size: 18px;
 }
 .navbar a, .navbar a:visited, .navbar a:hover{
     color: white;
@@ -60,7 +66,7 @@ body{
 }
 .homeMainImageFigure figcaption{
     font-family: "LB";
-    width:1000px;
+    width:900px;
     color:white;
     position: absolute;
     top: 50%; left: 50%;
@@ -68,11 +74,11 @@ body{
 }
 .homeMainImageFigure figcaption div{
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
 }
 .homeMainImageFigure figcaption button{
     background-color: #7c847c;
-    margin: auto;
+    margin: 10px auto;
     transition: all .2s ease-in-out;
 }
 .homeMainImageFigure figcaption button:hover{
@@ -80,7 +86,7 @@ body{
 }
 .homeMainImageFigure figcaption button a, .homeMainImageFigure figcaption button a:hover{
     color:white;
-    font-size:13px;
+    font-size:11px;
     text-decoration: none;
 }
 .homeMainImageFigure figcaption h1::after{
@@ -88,23 +94,30 @@ body{
     width:200px;
     height: 2px;
     display: block;
-    background-color: #555;
-    margin: auto;
+    background-color: #7c847c;
+    margin: 10px auto;
 }
 .homeMainImageFigure figcaption h1{
     display: block;
-    font-size:54px;
+    font-size:40px;
     font-weight: bold;
 }
 /* FOOTER */
 footer{
     font-family: "LB";
-    color:#7c7c7c;
-    font-size: 22px;
     text-align: center;
     background-color: #121210;
     height: 300px;
     padding: 50px 40px;
+    color:#7C7C7C;
+}
+.footerContactImg{
+    width:20px;
+    height: 20px;
+}
+.footerTitleCol{
+    font-size: 20px;
+    color:#A6A7A3;
 }
 /* PAGES */
 .pagesMainImage{
