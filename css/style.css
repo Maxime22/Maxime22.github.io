@@ -162,6 +162,12 @@ h2{
     padding:0px 0px 5px 0px;
     font-size:12px;
 }
+.homeSeparator{
+    width: 20%;
+    height: 2px;
+    background-color: #7C7C7C;
+    margin: auto;
+}
 /* NEWS */
 .bodyNews img{
     width: 100%;
