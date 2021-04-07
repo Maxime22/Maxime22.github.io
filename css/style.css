@@ -22,6 +22,9 @@ body{
     font-family: "OpenSans";
     background-color: rgb(245, 245, 245);
 }
+body a{
+    color:#7c7c7c;
+}
 .container-fluid{
     padding:0px;
 }
@@ -115,16 +118,49 @@ h2{
     font-weight: bold;
 }
 .homeJumbo{
-    background-color: #d4d4d4;
+    /*background-color: #d4d4d4;*/
+    background-color: #121210;
     padding: 40px 0px;
 }
 .homeJumbo p{
     font-weight: bold;
     color:#6e6e6e;
+    width: 80%;
+    margin: auto;
+}
+.homeJumbo div{
+    color:white;
 }
 .homeImage{
     width:100%;
     object-fit: cover;
+}
+.homeNews img{
+    width: 100%;
+    object-fit: cover;
+}
+.homeNews figcaption{
+    font-size:14px;
+}
+.homeNews button, .homeContacts button{
+    background-color: #7c847c;
+    transition: all .2s ease-in-out;
+    font-family: "LB";
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.homeNews button:hover, .homeContacts button:hover{
+    transform: scale(1.1);
+}
+.homeNews button a, .homeNews button a:hover, .homeContacts button a, .homeContacts button a:hover{
+    color:white;
+    text-decoration: none;
+}
+.thumbNews{
+    border: 1px solid #6e6e6e;
+    border-radius: 4px;
+    padding:0px 0px 5px 0px;
+    font-size:12px;
 }
 /* FOOTER */
 footer{
@@ -162,4 +198,19 @@ footer{
     display: block;
     font-size:50px;
     font-weight: bold;
+}
+/* RESPONSIVE */
+@media (max-width: 991px){
+    .homeMainImage{
+        height:30vh;
+    }
+    .homeMainImageFigure figcaption{
+        font-family: "LB";
+        width:900px;
+        color:white;
+        top: 18%;
+    }
+    .homeFirstImage{
+        display: none;
+    }
 }
