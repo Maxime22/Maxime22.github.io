@@ -101,7 +101,7 @@ h2{
 .homeMainImageFigure figcaption button:hover{
     transform: scale(1.1);
 }
-.homeMainImageFigure figcaption button a, .homeMainImageFigure figcaption button a:hover{
+.homeMainImageFigure figcaption a button, .homeMainImageFigure figcaption a button:hover{
     color:white;
     font-size:11px;
     text-decoration: none;
@@ -158,7 +158,7 @@ h2{
 .homeNews button:hover, .homeContacts button:hover{
     transform: scale(1.1);
 }
-.homeNews button a, .homeNews button a:hover, .homeContacts button a, .homeContacts button a:hover{
+.homeNews a button, .homeNews a button:hover, .homeContacts a button, .homeContacts a button:hover{
     color:white;
     text-decoration: none;
 }
