@@ -162,6 +162,14 @@ h2{
     padding:0px 0px 5px 0px;
     font-size:12px;
 }
+/* NEWS */
+.bodyNews img{
+    width: 100%;
+    object-fit: cover;
+}
+.bodyNews figcaption{
+    font-size:14px;
+}
 /* FOOTER */
 footer{
     font-family: "LB";
