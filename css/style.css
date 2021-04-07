@@ -18,11 +18,16 @@
 body{
     width:100%;
     overflow-x: hidden;
-    color:#47425d;
+    color:#121210;
     font-family: "OpenSans";
+    background-color: rgb(245, 245, 245);
 }
 .container-fluid{
     padding:0px;
+}
+h2{
+    font-size: 29px;
+    font-weight: bold;
 }
 /* HEADER */
 .header {
@@ -64,6 +69,9 @@ body{
     object-fit: cover;
     width:100%;
 }
+.homeMainImageFigure{
+    margin-bottom: 0;
+}
 .homeMainImageFigure figcaption{
     font-family: "LB";
     width:900px;
@@ -101,6 +109,22 @@ body{
     display: block;
     font-size:40px;
     font-weight: bold;
+}
+.welcomeTitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+.homeJumbo{
+    background-color: #d4d4d4;
+    padding: 40px 0px;
+}
+.homeJumbo p{
+    font-weight: bold;
+    color:#6e6e6e;
+}
+.homeImage{
+    width:100%;
+    object-fit: cover;
 }
 /* FOOTER */
 footer{
