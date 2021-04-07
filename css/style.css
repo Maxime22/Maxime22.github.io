@@ -83,7 +83,7 @@ h2{
 }
 .homeMainImageFigure figcaption{
     font-family: "LB";
-    width:900px;
+    text-align: center;
     color:white;
     position: absolute;
     top: 50%; left: 50%;
@@ -274,7 +274,6 @@ footer .fa-envelope{
     }
     .homeMainImageFigure figcaption{
         font-family: "LB";
-        width:900px;
         color:white;
         top: 18%;
     }
