@@ -43,14 +43,51 @@
       </figcaption>
     </figure>
   </div>
-  <div class="container pt-3 pb-3">
-    <h2>Nous contacter</h2>
+  <div class="container pt-3 pb-5">
+    <div class="row">
+        <div class="col-12 text-center mb-3"><h2>Pour être sûr d'avoir la meilleure place</h2></div>
+        <div class="col-8 offset-2 text-center">
+            <form method="post" action="#">
+                <div class="form-group">
+                    <label for="name">Nom : </label> <br>
+                    <input class="form-control" type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="surname">Prénom : </label> <br>
+                    <input class="form-control" type="text" name="surname" id="surname">
+                </div>
+                <div class="form-group">
+                    <label for="mailAdress">Adresse email :</label> <br>
+                    <input class="form-control" type="email" name="mail" id="mailAdress">
+                </div>
+                <div class="form-group">
+                    <label for="filmChosen">Quelle séance voulez vous réserver ?</label><br>
+                    <select class="form-control" name="film" id="filmChosen">
+                        <option value="Dead Man">Dead Man - Jeudi 5 Août - 18h</option>
+                        <option value="Into the wild">Into the wild - Jeudi 5 Août - 20h</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="numberOfPlaces">Nombre de places</label>
+                    <select class="form-control" id="numberOfPlaces">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    </select>
+                </div>
+                <div class="text-center">
+                    <input class="sendFormButton btn" type="submit" value="Envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
   </div>
   <footer>
     <div class="row">
       <div class="col-4">
         <div class="footerTitleCol">NOUS CONTACTER</div>
-        <div class="mt-4"><img src="./images/phone-call.png" class="footerContactImg"> : 06.77.88.99.00</div>
+        <div class="mt-4"><img src="../images/phone-call.png" class="footerContactImg"> : 06.77.88.99.00</div>
         <div><i class="fa fa-envelope" aria-hidden="true"></i> : openairfestival@gmail.com</div>
       </div>
       <div class="col-4">

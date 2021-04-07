@@ -32,6 +32,12 @@ h2{
     font-size: 29px;
     font-weight: bold;
 }
+.separator{
+    width: 20%;
+    height: 2px;
+    background-color: #7C7C7C;
+    margin: auto;
+}
 /* HEADER */
 .header {
     width: 100%;
@@ -162,12 +168,6 @@ h2{
     padding:0px 0px 5px 0px;
     font-size:12px;
 }
-.homeSeparator{
-    width: 20%;
-    height: 2px;
-    background-color: #7C7C7C;
-    margin: auto;
-}
 /* NEWS */
 .bodyNews img{
     width: 100%;
@@ -175,6 +175,43 @@ h2{
 }
 .bodyNews figcaption{
     font-size:14px;
+}
+/* PROGRAM */
+.thumbProgram{
+    border: 1px solid #6e6e6e;
+    border-radius: 4px;
+    padding:0px 0px 5px 0px;
+    font-size:14px;
+}
+.thumbProgram img{
+    width: 100%;
+    object-fit: cover;
+}
+.programBookButton, .programBookButton:hover{
+    background-color: #7c847c;
+    color:white;
+    transition: all .2s ease-in-out;
+    font-family: "LB";
+    font-size: 12px;
+    padding: 10px 15px;
+}
+/* FILM PAGE */
+.filmPageFigure{
+    width:80%;
+    margin: auto;
+}
+.filmPageFigure img{
+    width: 100%;
+    object-fit: cover;
+}
+/* BOOKING PAGE */
+.sendFormButton, .sendFormButton:hover{
+    background-color: #7c847c;
+    color:white;
+    transition: all .2s ease-in-out;
+    font-family: "LB";
+    font-size: 12px;
+    padding: 10px 15px;
 }
 /* FOOTER */
 footer{
