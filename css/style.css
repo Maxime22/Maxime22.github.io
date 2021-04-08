@@ -64,6 +64,9 @@ h2{
     width: 80px;
     height: 80px;
 }
+.fa-bars{
+    color:white;
+}
 /* HOME */
 @keyframes title-appears{
     0% {
@@ -146,7 +149,7 @@ h2{
     object-fit: cover;
 }
 .homeNews figcaption{
-    font-size:14px;
+    font-size:16px;
 }
 .homeNews button, .homeContacts button{
     background-color: #7c847c;
@@ -166,7 +169,7 @@ h2{
     border: 1px solid #6e6e6e;
     border-radius: 4px;
     padding:0px 0px 5px 0px;
-    font-size:12px;
+    font-size:14px;
 }
 /* NEWS */
 .bodyNews img{
@@ -218,7 +221,7 @@ footer{
     font-family: "LB";
     text-align: center;
     background-color: #121210;
-    height: 300px;
+    min-height: 300px;
     padding: 50px 40px;
     color:#7C7C7C;
 }
@@ -273,11 +276,39 @@ footer .fa-envelope{
         height:30vh;
     }
     .homeMainImageFigure figcaption{
-        font-family: "LB";
-        color:white;
         top: 18%;
     }
     .homeFirstImage{
         display: none;
+    }
+    /* NAVBAR */
+    .navbar .nav-item:hover::after{
+        transform: scaleX(0);
+    }
+}
+@media (max-width: 767px){
+    /* HOME */
+    .homeMainImage{
+        height:30vh;
+    }
+    .homeMainImageFigure figcaption h1{
+        font-size:16px;
+    }
+    .homeMainImageFigure figcaption div{
+        font-size:14px;
+    }
+    .welcomeTitle{
+        font-size: 20px;
+    }
+    /* PAGES */
+    .pagesMainImageFigure figcaption h1 {
+        font-size: 35px;
+    }
+    /* FOOTER */
+    footer{
+        font-size: 14px;
+    }
+    .footerTitleCol{
+        font-size: 16px;
     }
 }

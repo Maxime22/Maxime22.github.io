@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" href="../favicon.ico" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/1ab7cb9cf2.js" crossorigin="anonymous"></script>
 </head>
 <body class="container-fluid">
@@ -14,7 +16,10 @@
       <a class="navbar-brand" href="../index.html">
         <img src="../images/FFAMlogotransparent.png" class="align-top logoNavbar" alt="FFAM LOGO">
       </a>
-      <div class="collapse navbar-collapse">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="../index.html">Accueil</a>
@@ -67,19 +72,19 @@
   </div>
   <footer>
     <div class="row">
-      <div class="col-4">
+      <div class="col-md-4 col-12 mt-3">
         <div class="footerTitleCol">NOUS CONTACTER</div>
         <div class="mt-4"><img src="../images/phone-call.png" class="footerContactImg"> : 06.77.88.99.00</div>
         <div><i class="fa fa-envelope" aria-hidden="true"></i> : openairfestival@gmail.com</div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-12 mt-3">
         <div class="footerTitleCol">NOUS TROUVER</div>
         <div class="mt-4">
           Adresse : 35 Boulevard de Courcelles, 75008 Paris
           Horaires du parc : Ferme à 21:00 en temps normal, à minuit lors du festival
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-12 mt-3">
         <div class="footerTitleCol">NOUS SUIVRE</div>
         <div class="mt-4">
           <a class="social-link" href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
