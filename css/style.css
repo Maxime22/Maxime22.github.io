@@ -273,10 +273,16 @@ footer .fa-envelope{
 /* RESPONSIVE */
 @media (max-width: 991px){
     .homeMainImage{
-        height:30vh;
+        height:40vh;
+    }
+    .homeMainImageFigure figcaption h1{
+        font-size:30px;
+    }
+    .homeMainImageFigure figcaption div{
+        font-size:25px;
     }
     .homeMainImageFigure figcaption{
-        top: 18%;
+        top: 25%;
     }
     .homeFirstImage{
         display: none;
@@ -289,7 +295,7 @@ footer .fa-envelope{
 @media (max-width: 767px){
     /* HOME */
     .homeMainImage{
-        height:30vh;
+        height:40vh;
     }
     .homeMainImageFigure figcaption h1{
         font-size:16px;
