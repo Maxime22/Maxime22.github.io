@@ -96,15 +96,15 @@ h2{
     text-align: center;
     font-size: 32px;
 }
-.homeMainImageFigure figcaption button{
+.homeMainImageFigure figcaption .btn{
     background-color: #7c847c;
     margin: 10px auto;
     transition: all .2s ease-in-out;
 }
-.homeMainImageFigure figcaption button:hover{
+.homeMainImageFigure figcaption a:hover{
     transform: scale(1.1);
 }
-.homeMainImageFigure figcaption a button, .homeMainImageFigure figcaption a button:hover{
+.homeMainImageFigure figcaption a, .homeMainImageFigure figcaption a:hover{
     color:white;
     font-size:11px;
     text-decoration: none;
@@ -151,17 +151,17 @@ h2{
 .homeNews figcaption{
     font-size:16px;
 }
-.homeNews button, .homeContacts button{
+.homeNews .btn, .homeContacts .btn{
     background-color: #7c847c;
     transition: all .2s ease-in-out;
     font-family: "LB";
     font-size: 12px;
     padding: 10px 15px;
 }
-.homeNews button:hover, .homeContacts button:hover{
+.homeNews .btn:hover, .homeContacts .btn:hover{
     transform: scale(1.1);
 }
-.homeNews a button, .homeNews a button:hover, .homeContacts a button, .homeContacts a button:hover{
+.homeNews a, .homeNews a:hover, .homeContacts a, .homeContacts a:hover{
     color:white;
     text-decoration: none;
 }
