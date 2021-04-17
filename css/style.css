@@ -198,6 +198,9 @@ h2{
     font-size: 12px;
     padding: 10px 15px;
 }
+.programBookButton:hover{
+    transform: scale(1.1);
+}
 /* FILM PAGE */
 .filmPageFigure{
     width:80%;
@@ -215,6 +218,11 @@ h2{
     font-family: "LB";
     font-size: 12px;
     padding: 10px 15px;
+}
+/* CONTACT */
+.googleMap{
+    width:80%;
+    height:450px;
 }
 /* FOOTER */
 footer{
